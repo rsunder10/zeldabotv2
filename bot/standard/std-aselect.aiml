@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="SUNDER"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>SHOW THE BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE BEST RESTAURANT IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE BEST IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST THE BEST IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL THE BEST IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL THE BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL A BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SHOW A BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SHOW A BEST RESTAURANT IN IT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST A BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>SHOW ME BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME BEST RESTAURANT IN IT</pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL ME BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL ME THE BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL ME THE BEST RESTAURANT IN IT</pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>TELL ME A BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST A BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST ME BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST THE BEST RESTAURANT </pattern>
+<template>
+	+rating
+</template>
+</category>
+
+
+
+
+
+<category>
+<pattern>SHOW ME ALL THE RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME ALL THE RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE LIST OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+
+<category>
+<pattern>SHOW THE LIST OF  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL THE LIST OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL THE LIST OF  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL ME THE LIST OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL ME THE LIST OF  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL  LIST OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL  LIST OF  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE LIST OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE LIST OF  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME A LIST OF  RESTAURANT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME A LIST OF  RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME ALL THE RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ALL THE RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT ALL THE RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT  THE RESTAURANT IN IT</pattern>
+<template>
+	+list
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME ABOUT  THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL ME ABOUT  THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>SHOW ME THE CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>SHOW ME THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>SHOW ME THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+<category>
+<pattern>SHOW ME THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+<category>
+<pattern>SHOW ME THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>SHOW THE CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>SHOW THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>SHOW THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL THE CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>TELL THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+<category>
+<pattern>TELL THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+
+<category>
+<pattern>TELL ME THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>TELL ME THE CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>TELL ME THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>TELL ME THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+<category>
+<pattern>TELL ME THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+<category>
+<pattern>TELL ME THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>SUGGEST THE CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>SUGGEST THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST ME THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST ME THE CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST ME THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>SUGGEST ME THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+
+<category>
+<pattern>SUGGEST ME THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+
+<category>
+<pattern>SUGGEST ME THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU TELL ME THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>CAN YOU TELL ME THE CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>CAN YOU TELL ME THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU TELL ME THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU TELL ME THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+<category>
+<pattern>CAN YOU TELL ME THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+
+
+
+
+<category>
+<pattern>CAN YOU SHOW ME THE CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU SHOW ME THE CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU SHOW ME THE CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU SHOW ME THE COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU SHOW ME THE COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>CAN YOU SHOW ME THE COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>CHEAP RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>CHEAPER RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>CHEAPEST RESTAURANT IN IT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+<category>
+<pattern>COSTLY RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+<category>
+<pattern>COSTLIER RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>COSTLIEST RESTAURANT IN IT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>SHOW CHEAP RESTAURANT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME CHEAP RESTAURANT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE CHEAP RESTAURANT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE CHEAP RESTAURANT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE COSTLY RESTAURANT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL THE COSTLY RESTAURANT</pattern>
+<template>
+	+costly
+</template>
+</category>
+
+<category>
+<pattern>TELL THE CHEAP RESTAURANT</pattern>
+<template>
+	+cheap
+</template>
+</category>
+
+
+<!-- I Have TO Design For This -->
+
+<category>
+<pattern>WHAT IS THE COST OF  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE PRICE OF  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS THE RATE OF  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS THE AMOUNT THAT HAS TO BE PAID FOR  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS THE ESTIMATED PRICE FOR  *</pattern>
+<template>
+	+cost<star/>
+</template>
+</category>
+
+
+
+<category>
+<pattern>LIST ME THE VEGETARIAN RESTAURANT</pattern>
+<template>
+	+lveg
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE NON VEGETARIAN RESTAURANT</pattern>
+<template>
+	+lnon
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+lveg
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE NON VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+lnon
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE VEG RESTAURANT</pattern>
+<template>
+	+lveg
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE NON VEG RESTAURANT</pattern>
+<template>
+	+lnon
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE VEG RESTAURANT IN IT</pattern>
+<template>
+	+lveg
+</template>
+</category>
+
+<category>
+<pattern>LIST ME THE NON VEG RESTAURANT IN IT</pattern>
+<template>
+	+lnon
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEGETARIAN RESTAURANT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEG RESTAURANT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEG RESTAURANT IN IT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST VEG RESTAURANT IN IT</pattern>
+<template>
+	+bveg
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST NON VEGETARIAN RESTAURANT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST NON VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST NON VEGETARIAN RESTAURANT IN IT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+
+<category>
+<pattern>SHOW ME THE BEST NON VEG RESTAURANT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+<category>
+<pattern>SHOW ME THE BEST NON VEG RESTAURANT IN IT</pattern>
+<template>
+	+bnon
+</template>
+</category>
+
+
+
+
+
+
+
+
+<!-- Interaction with maps pattern will be declared here -->
+
+
+
+<category>
+<pattern>SHOW THE BEST RESTAURANT IN MAPS</pattern>
+<template>
+	+bmaps
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE CHEAP RESTAURANT IN MAPS</pattern>
+<template>
+	+cmaps
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE LIST OF RESTAURANT IN MAPS</pattern>
+<template>
+	+lmaps
+</template>
+</category>
+
+<category>
+<pattern>SHOW THE COSTLY RESTAURANT IN MAPS</pattern>
+<template>
+	+cosmaps
+</template>
+</category>
+
+
+
+</aiml>

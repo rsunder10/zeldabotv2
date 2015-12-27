@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{%block content%}
+<style>
+
+body{
+	background-color:#28273B;
+}
+   .banner-info{
+  background:url({%static 'img/banner.jpg'%}) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:700px;
+}
+.banner-info1{
+  background:url({%static 'img/banner1.jpg'%}) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:700px;
+}
+.banner-info2{
+  background:url({%static 'img/banner.jpg'%}) no-repeat 0px 0px;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:700px;
+}
+
+</style>
+<div class ="chatbag">
+	<div class="banner">
+			<!-- Slider-starts-Here -->
+				<script src="{% static 'js/responsiveslides.min.js' %}"></script>
+				 <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      // Slideshow 4
+				      $("#slider3").responsiveSlides({
+				        auto: true,
+				        pager: false,
+				        nav: false,
+				        speed: 500,
+				        namespace: "callbacks",
+				        before: function () {
+				          $('.events').append("<li>before event fired.</li>");
+				        },
+				        after: function () {
+				          $('.events').append("<li>after event fired.</li>");
+				        }
+				      });
+				
+				    });
+				  </script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner-info">
+							<div class="baner-inf">
+								<h1>Hello!</h1>
+								<p>I am Zelda I Will Help You In Finding Good Restaurant For You</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info1">
+							<div class="baner-inf">
+								<h1>At Once Login</h1>
+								<p>Make An Account And Start Chatting With Our Bot
+								<a href="{% url 'account_signup' %}">Create Account</a>
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info2">
+							<div class="baner-inf">
+								<h1>An Ideal</h1>
+								<p>Place To Spend A Happy Evening</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+</div>
+<div class="banner-bottom-grids">
+			<div class="container">
+				<div class="col-md-3 banner-bottom-grid">
+					<div class="banner-bottom-grd back">
+						<h4>01</h4>
+						<p>Chat<span>Bot</span></p>
+						<div class="clearfix"> </div>
+					</div>
+					<p class="debitis">Our Chatbot Contains Could Understand over 25000 Patterns.In Which more than 3000 are restaurant Specific</p>
+				</div>
+				<div class="col-md-3 banner-bottom-grid">
+					<div class="banner-bottom-grd back1">
+						<h4>02</h4>
+						<p>Restaurant <span></span></p>
+						<div class="clearfix"> </div>
+					</div>
+					<p class="debitis">Our Restaurant Database Contains Over  41823 Restaurant Details From City All Across The India Which Are As Follow 
+					Bangalore,
+					Mumbai,
+					Hyderabad,
+					Kolkata,
+					Mysore,
+					Pune,
+					NCR,
+					Chennai.
+					 </p>
+
+				</div>
+				<div class="col-md-3 banner-bottom-grid">
+					<div class="banner-bottom-grd back2">
+						<h4>03</h4>
+						<p>Food <span>Items</span></p>
+						<div class="clearfix"> </div>
+					</div>
+					<p class="debitis">Our Chat Bot Database Contains Over ???? Food Items</p>
+
+				</div>
+				<div class="col-md-3 banner-bottom-grid">
+					<div class="banner-bottom-grd back3">
+						<h4>04</h4>
+						<p>About <span>Us</span></p>
+						<div class="clearfix">  </div>
+					</div>
+					<p class="debitis">We are Youth bla bla and Ethusiasit bla bla bla</p>
+
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+
+</div>
+{%endblock%}

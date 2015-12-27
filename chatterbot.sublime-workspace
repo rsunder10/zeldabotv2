@@ -1,0 +1,367 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"downvote",
+				"downvote_review"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"user",
+				"AUTH_USER_MODEL"
+			],
+			[
+				"Cert",
+				"CertifiedComment"
+			],
+			[
+				"upvote",
+				"upvote_review"
+			],
+			[
+				"comme",
+				"comment_id"
+			],
+			[
+				"cert",
+				"cert_upvote"
+			],
+			[
+				"cer",
+				"cert_upvote"
+			],
+			[
+				"cert_",
+				"cert_upvote"
+			],
+			[
+				"is_a",
+				"is_ajax"
+			],
+			[
+				"review",
+				"review_id"
+			],
+			[
+				"template",
+				"template_name"
+			],
+			[
+				"categ",
+				"category_name"
+			],
+			[
+				"F",
+				"ForeignKey"
+			],
+			[
+				"class",
+				"classmethod"
+			],
+			[
+				"sta",
+				"StaffRequiredMixin"
+			],
+			[
+				"comment",
+				"CommentDislike"
+			],
+			[
+				"C",
+				"CommentLike"
+			],
+			[
+				"Re",
+				"ReviewDislike"
+			],
+			[
+				"Revi",
+				"ReviewLike"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"aut",
+				"auto_now_add"
+			],
+			[
+				"re",
+				"Review"
+			],
+			[
+				"Compiler",
+				"CompilerFormAdmin"
+			],
+			[
+				"url",
+				"urlpatterns"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/InstantReview/instareview/instareview/settings.py",
+		"/F/InstantReview/instareview/electronicreview/models.py",
+		"/F/InstantReview/instareview/instareview/urls.py",
+		"/F/InstantReview/instareview/template/electronicreview/review_detail.html",
+		"/F/InstantReview/instareview/electronicreview/views.py",
+		"/F/GITHUB/ZomatoData/zomatodata/pipelines.py",
+		"/G/sunder/scrapy.cfg",
+		"/F/GITHUB/ZomatoData/zomatodata/items.py",
+		"/F/GITHUB/ZomatoData/zomatodata/settings.py",
+		"/F/GITHUB/ZomatoData/setup.py",
+		"/F/GITHUB/django-star-ratings/star_ratings/models.py",
+		"/F/GITHUB/django-star-ratings/star_ratings/admin.py",
+		"/C/Users/r sunder/AppData/Local/Programs/Python/Python35/Lib/site-packages/django_star_ratings-0.5.1.dist-info/DESCRIPTION.rst",
+		"/C/Users/r sunder/AppData/Local/Programs/Python/Python35/Lib/site-packages/django_star_ratings-0.5.1.dist-info/RECORD",
+		"/C/Users/r sunder/AppData/Local/Programs/Python/Python35/Lib/site-packages/django_star_ratings-0.5.1.dist-info/metadata.json",
+		"/C/Users/r sunder/AppData/Local/Programs/Python/Python35/Lib/site-packages/django_star_ratings-0.5.1.dist-info/METADATA",
+		"/F/GITHUB/django-likes/likes/middleware.py",
+		"/F/GITHUB/django-likes/likes/static/likes/includes/likes.js",
+		"/F/GITHUB/django-likes/likes/signals.py",
+		"/F/InstantReview/instareview/template/star_ratings/widget_base.html",
+		"/F/GITHUB/django-likes/likes/models.py",
+		"/F/GITHUB/django-allauth/example/README.rst",
+		"/F/InstantReview/instareview/template/head_css.html",
+		"/F/InstantReview/instareview/template/javascript.html",
+		"/F/GITHUB/django-star-ratings/demo/templates/sizes.html",
+		"/F/GITHUB/django-star-ratings/demo/templates/home.html",
+		"/F/InstantReview/instareview/template/account/signup.html",
+		"/F/InstantReview/instareview/template/account/base.html",
+		"/F/GITHUB/django-allauth/manage.py",
+		"/F/GITHUB/django-allauth/example/example/settings.py",
+		"/F/GITHUB/django-allauth/example/example/local_settings.example",
+		"/F/GITHUB/django-allauth/example/example/templates/bootstrap/allauth/account/base.html",
+		"/F/GITHUB/django-allauth/example/example/demo/models.py",
+		"/F/GITHUB/django-allauth/setup.py",
+		"/F/GITHUB/django-allauth/test_settings.py",
+		"/F/GITHUB/django-allauth/docs/installation.rst",
+		"/F/GITHUB/django-allauth/example/example/demo/views.py",
+		"/F/GITHUB/django-allauth/example/example/templates/bootstrap/allauth/account/email_confirm.html",
+		"/F/GITHUB/django-allauth/example/example/urls.py",
+		"/F/GITHUB/django-allauth/allauth/app_settings.py",
+		"/F/GITHUB/django-allauth/allauth/account/app_settings.py",
+		"/F/GITHUB/django-star-ratings/demo/demo/settings.py",
+		"/F/GITHUB/django-star-ratings/demo/demo/urls.py",
+		"/F/GITHUB/django-star-ratings/demo/demo/app/models.py",
+		"/F/GITHUB/django-star-ratings/demo/demo/app/views.py",
+		"/F/GITHUB/django-likes/likes/exceptions.py",
+		"/F/GITHUB/django-likes/likes/views.py",
+		"/F/GITHUB/django-likes/setup.py",
+		"/F/GITHUB/django-likes/likes/utils.py",
+		"/F/GITHUB/django-likes/likes/urls.py",
+		"/F/GITHUB/django-likes/likes/tests.py",
+		"/F/InstantReview/instareview/electronicreview/urls.py",
+		"/F/InstantReview/instareview/template/base.html",
+		"/F/InstantReview/instareview/static_files/js/upvotendownvote.js",
+		"/F/InstantReview/instareview/electronicreview/admin.py",
+		"/F/InstantReview/instareview/template/electronicreview/review_list.html",
+		"/F/InstantReview/README.md",
+		"/F/InstantReview/instareview/template/ajax.html",
+		"/F/GITHUB/ecommerce-2/src/templates/javascript.html",
+		"/F/InstantReview/instareview/template/navbar.html",
+		"/C/Users/r sunder/Desktop/home.css",
+		"/F/InstantReview/instareview/static_files/css/custom.css",
+		"/F/InstantReview/instareview/template/home.html",
+		"/F/InstantReview/instareview/instareview/views.py",
+		"/F/InstantReview/instareview/tvseriesreview/urls.py",
+		"/F/InstantReview/instareview/collegereview/urls.py",
+		"/F/InstantReview/instareview/moviereview/urls.py",
+		"/F/InstantReview/instareview/animereview/urls.py",
+		"/F/InstantReview/instareview/review/models.py",
+		"/F/InstantReview/instareview/review/views.py",
+		"/F/InstantReview/instareview/review/urls.py",
+		"/F/InstantReview/instareview/template/review/review_detail.html",
+		"/F/InstantReview/instareview/template/review/review_list.html",
+		"/F/InstantReview/instareview/review/admin.py",
+		"/F/GITHUB/ecommerce-2/src/ecomerce2/settings/production.py",
+		"/F/GITHUB/ecommerce-2/src/ecomerce2/urls.py",
+		"/F/GITHUB/ecommerce-2/src/ecomerce2/views.py",
+		"/F/django/social/social/settings.py",
+		"/F/django/social/social/urls.py",
+		"/F/GITHUB/django-socialregistration/socialregistration/settings.py",
+		"/F/InstantReview/instareview/review/mixins.py",
+		"/F/InstantReview/static_env/media_root/review/iphone-6s/asd.html",
+		"/F/InstantReview/instareview/template/review/asd.html",
+		"/F/django/lwc/template/base.html",
+		"/F/GITHUB/Try-Django-1.8/src/templates/head_css.html",
+		"/F/InstantReview/instareview/template/review/review.html",
+		"/F/GITHUB/Try-Django-1.8/src/templates/navbar.html",
+		"/F/GITHUB/Try-Django-1.8/src/templates/javascript.html",
+		"/F/GITHUB/Try-Django-1.8/src/templates/base.html",
+		"/F/InstantReview/instareview/review/template/review.html",
+		"/F/InstantReview/instareview/template/review.html",
+		"/F/django/compiler/src/learnit/compiler/models.py",
+		"/F/django/compiler/src/learnit/compiler/forms.py",
+		"/F/django/compiler/src/learnit/template/compile.html",
+		"/F/django/compiler/src/learnit/learnit/urls.py",
+		"/F/django/compiler/src/learnit/compiler/views.py",
+		"/F/GITHUB/django-userena/docs/index.rst",
+		"/F/django/compiler/src/learnit/learnit/settings.py",
+		"/F/django/compiler/src/learnit/compiler/template/compile.html",
+		"/F/django/lwc/lwc/settings.py",
+		"/F/django/lwc/newsletter/views.py",
+		"/F/django/lwc/template/home.html",
+		"/F/django/lwc/newsletter/models.py",
+		"/F/django/lwc/newsletter/form.py",
+		"/F/django/lwc/newsletter/admin.py",
+		"/F/django/lwc/template/registration/login.html",
+		"/F/django/lwc/template/registration/password_change_form.html",
+		"/F/django/lwc/template/registration/password_reset_form.html",
+		"/F/django/lwc/template/registration/registration_form.html",
+		"/F/django/lwc/lwc/urls.py",
+		"/F/django/lwc/registration/views.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"review",
+			"views"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "chatterbot.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

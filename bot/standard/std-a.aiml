@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Sunder"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>I WANT TO EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>EATING * IS MY FANTASY</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I AM HABITUAL OF *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I AM HABITUAL OF EATING *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>WHERE I CAN GET THIS *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>WHERE I CAN GET  *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>WHERE CAN I GET THIS *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+<category>
+
+<pattern>WHERE CAN I GET *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I LOVE TO EAT THIS *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>MY FAVOURITE DISH IS  *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I AM CRAZY ABOUT THIS  *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>WHERE I CAN FIND THIS  *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>WHERE I CAN FIND  *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I CARVE FOR *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I ALWAYS EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I ALWAYS EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I LIKE EATING *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I ADMIRE TO EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I USUALLY PREFER TO EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I PREFER TO EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I PREFER EATING *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I USUALLY EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I PREFER *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I WOULD LOVE TO EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I LOVE TO EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I LIKE TO EAT *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>I WOULD LOVE TO HAVE *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+<category>
+<pattern>MY FIRST LIKING IS *</pattern>
+<template>
+	${'food':'<star/>'}
+</template>
+</category>
+
+
+</aiml>

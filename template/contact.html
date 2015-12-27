@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load bootstrap %}
+
+
+{% block head_title %}Contact Us{% endblock %}
+{% block content %}
+
+
+<div class="col-sm-6 col-sm-offset-3 ">
+<div class="shadow1">
+<div class="content" style="padding:30px;">
+<h1 align="center">Contact Form</h1>
+<form action="" method="post">{% csrf_token %}
+    {{ form|bootstrap }}
+    <input type="submit" value="Submit" class="btn btn-primary"  />
+</form>
+</div>
+</div>
+</div>
+
+{% endblock %}
