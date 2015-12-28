@@ -1,5 +1,3 @@
-aiml
-
-pip install django-user-tracking
-tracking
-django-crum
+Django==1.8.6
+django-allauth==0.24.1
+django-bootstrap-form==3.2
